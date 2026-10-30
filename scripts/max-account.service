@@ -1,0 +1,32 @@
+# Единственный процесс владеет сеансом, журналом отправок и фоновыми передачами.
+[Unit]
+Description=MAX personal account MCP server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=max-account
+Group=max-account
+WorkingDirectory=/opt/max-account
+ExecStart=/opt/max-account/.venv/bin/python -m max_account.cli --config /etc/max-account/config.toml serve
+Environment=PYTHONPATH=/opt/max-account/src
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONUTF8=1
+Environment=NO_PROXY=*
+Environment=HTTP_PROXY=
+Environment=HTTPS_PROXY=
+Environment=ALL_PROXY=
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=20
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/max-account /srv/max-account/exchange
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+
+[Install]
+WantedBy=multi-user.target

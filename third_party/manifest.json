@@ -1,0 +1,362 @@
+[
+  {
+    "name": "PyJWT",
+    "version": "2.15.1",
+    "license": "MIT",
+    "notices": [
+      "third_party/PyJWT/licenses/AUTHORS.rst",
+      "third_party/PyJWT/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "aiofiles",
+    "version": "25.1.0",
+    "license": "Apache-2.0",
+    "notices": [
+      "third_party/aiofiles/licenses/LICENSE",
+      "third_party/aiofiles/licenses/NOTICE"
+    ]
+  },
+  {
+    "name": "aiohappyeyeballs",
+    "version": "2.7.1",
+    "license": "PSF-2.0",
+    "notices": [
+      "third_party/aiohappyeyeballs/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "aiohttp",
+    "version": "3.14.5",
+    "license": "Apache-2.0 AND MIT",
+    "notices": [
+      "third_party/aiohttp/licenses/LICENSE.txt",
+      "third_party/aiohttp/licenses/vendor/llhttp/LICENSE"
+    ]
+  },
+  {
+    "name": "aiosignal",
+    "version": "1.4.0",
+    "license": "Apache 2.0",
+    "notices": [
+      "third_party/aiosignal/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "aiosqlite",
+    "version": "0.22.1",
+    "license": "MIT License",
+    "notices": [
+      "third_party/aiosqlite/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "annotated-types",
+    "version": "0.8.0",
+    "license": "MIT",
+    "notices": [
+      "third_party/annotated-types/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "anyio",
+    "version": "4.15.1",
+    "license": "MIT",
+    "notices": [
+      "third_party/anyio/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "attrs",
+    "version": "26.1.0",
+    "license": "MIT",
+    "notices": [
+      "third_party/attrs/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "license": "MIT-0",
+    "notices": [
+      "third_party/cffi/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "third_party/click/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6",
+    "license": "BSD License",
+    "notices": [
+      "third_party/colorama/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "cryptography",
+    "version": "50.0.2",
+    "license": "Apache-2.0 OR BSD-3-Clause",
+    "notices": [
+      "third_party/cryptography/licenses/LICENSE",
+      "third_party/cryptography/licenses/LICENSE.APACHE",
+      "third_party/cryptography/licenses/LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "frozenlist",
+    "version": "1.8.0",
+    "license": "Apache-2.0",
+    "notices": [
+      "third_party/frozenlist/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "license": "MIT",
+    "notices": [
+      "third_party/h11/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "httpcore2",
+    "version": "2.16.0",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "third_party/httpcore2/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "httpx2",
+    "version": "2.16.0",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "third_party/httpx2/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "third_party/idna/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "jsonschema-specifications",
+    "version": "2025.9.1",
+    "license": "MIT",
+    "notices": [
+      "third_party/jsonschema-specifications/licenses/COPYING"
+    ]
+  },
+  {
+    "name": "jsonschema",
+    "version": "4.26.0",
+    "license": "MIT",
+    "notices": [
+      "third_party/jsonschema/licenses/COPYING"
+    ]
+  },
+  {
+    "name": "maxapi-python",
+    "version": "2.5.0",
+    "license": "MIT",
+    "notices": [
+      "third_party/maxapi-python/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "mcp-types",
+    "version": "2.3.0",
+    "license": "MIT",
+    "notices": [
+      "third_party/mcp-types/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "mcp",
+    "version": "2.3.0",
+    "license": "MIT",
+    "notices": [
+      "third_party/mcp/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "msgpack",
+    "version": "1.2.4",
+    "license": "Apache-2.0",
+    "notices": [
+      "third_party/msgpack/licenses/COPYING"
+    ]
+  },
+  {
+    "name": "multidict",
+    "version": "7.2.1",
+    "license": "Apache-2.0",
+    "notices": [
+      "third_party/multidict/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "opentelemetry-api",
+    "version": "1.45.1",
+    "license": "Apache-2.0",
+    "notices": [
+      "third_party/opentelemetry-api/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "propcache",
+    "version": "0.5.4",
+    "license": "Apache-2.0",
+    "notices": [
+      "third_party/propcache/licenses/LICENSE",
+      "third_party/propcache/licenses/NOTICE"
+    ]
+  },
+  {
+    "name": "pycparser",
+    "version": "3.12",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "third_party/pycparser/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pydantic",
+    "version": "2.14.1",
+    "license": "MIT",
+    "notices": [
+      "third_party/pydantic/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.50.1",
+    "license": "MIT",
+    "notices": [
+      "third_party/pydantic_core/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "python-multipart",
+    "version": "0.0.32",
+    "license": "Apache-2.0",
+    "notices": [
+      "third_party/python-multipart/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "python-socks",
+    "version": "3.2.0",
+    "license": "Apache-2.0",
+    "notices": [
+      "third_party/python-socks/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "qrcode",
+    "version": "8.2",
+    "license": "BSD",
+    "notices": [
+      "third_party/qrcode/LICENSE"
+    ]
+  },
+  {
+    "name": "referencing",
+    "version": "0.37.0",
+    "license": "MIT",
+    "notices": [
+      "third_party/referencing/licenses/COPYING"
+    ]
+  },
+  {
+    "name": "rpds-py",
+    "version": "2026.9.1",
+    "license": "MIT",
+    "notices": [
+      "third_party/rpds-py/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "sse-starlette",
+    "version": "3.6.0",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "third_party/sse-starlette/licenses/AUTHORS",
+      "third_party/sse-starlette/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "starlette",
+    "version": "1.10.0",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "third_party/starlette/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "truststore",
+    "version": "0.10.5",
+    "license": "MIT",
+    "notices": [
+      "third_party/truststore/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "typing-inspection",
+    "version": "0.4.4",
+    "license": "MIT",
+    "notices": [
+      "third_party/typing-inspection/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "license": "PSF-2.0",
+    "notices": [
+      "third_party/typing_extensions/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.54.0",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "third_party/uvicorn/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "websockets",
+    "version": "17.3",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "third_party/websockets/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "yarl",
+    "version": "1.25.1",
+    "license": "Apache-2.0",
+    "notices": [
+      "third_party/yarl/licenses/LICENSE",
+      "third_party/yarl/licenses/NOTICE"
+    ]
+  },
+  {
+    "name": "zstandard",
+    "version": "0.25.0",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "third_party/zstandard/licenses/LICENSE"
+    ]
+  }
+]

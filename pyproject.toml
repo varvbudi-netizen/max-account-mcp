@@ -1,0 +1,33 @@
+# Пакет содержит код; секреты и файлы обмена остаются вне установленного приложения.
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "max-account-bridge"
+version = "0.1.4"
+description = "MAX messenger personal-account MCP server for AI agents: chat history, search, messages, files and scheduled workflows"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md", "third_party/**/*"]
+keywords = ["mcp", "model-context-protocol", "max", "max-messenger", "pymax", "ai-agents", "hermes", "messaging"]
+requires-python = ">=3.11"
+dependencies = [
+    "mcp==2.3.0", "maxapi-python==2.5.0", "aiohttp==3.14.5",
+    "msgpack==1.2.4", "multidict==7.2.1", "idna==3.20", "uvicorn==0.54.0",
+]
+
+[project.scripts]
+max-account = "max_account.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/varvbudi-netizen/max-account-mcp"
+Repository = "https://github.com/varvbudi-netizen/max-account-mcp"
+Issues = "https://github.com/varvbudi-netizen/max-account-mcp/issues"
+Documentation = "https://github.com/varvbudi-netizen/max-account-mcp/blob/main/docs/README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

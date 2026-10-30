@@ -1,0 +1,21 @@
+# Относительные пути считаются от этого файла; отдельный экземпляр — отдельный аккаунт.
+bind = "127.0.0.1"
+port = 9381
+session_dir = ".local/private/session"
+storage_dir = ".local/private/spool"
+state_db = ".local/private/state.db"
+token_file = ".local/private/mcp.key"
+
+# Агент получает только папки обмена, закрытое состояние ему не требуется.
+input_roots = [".local/exchange/outbox"]
+download_dir = ".local/exchange/inbox"
+
+# Новые домены разрешает владелец после проверки точного адреса из ответа MAX.
+allowed_media_hosts = []
+max_file_bytes = 536870912
+max_photo_bytes = 20971520
+max_storage_bytes = 2147483648
+transfer_workers = 2
+request_timeout = 30
+upload_timeout = 900
+retention_seconds = 86400

@@ -1,0 +1,27 @@
+# Проверки не требуют секретов, подключения к MAX или реального аккаунта.
+name: Проверки проекта
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Проверить документы
+        run: python scripts/check_project.py --ready
+      - name: Установить закреплённые зависимости
+        run: python -m pip install -r requirements.lock . pytest==9.2.0
+      - name: Проверить зависимости и поведение
+        run: |
+          python -m pip check
+          python -m pytest -p no:cacheprovider -q
